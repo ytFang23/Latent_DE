@@ -1,0 +1,2 @@
+C:\Users\FBW\PycharmProjects\latent_ode\run_models.py
+run_models.py --niters 5 -n 1000 -l 15 --dataset activity --sde-rnn --rec-dims 32 --rec-layers 2 --gen-layers 1 --units 32 --gru-units 16 --classif --linear-classif

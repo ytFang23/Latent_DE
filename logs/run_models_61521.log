@@ -1,0 +1,35 @@
+C:\Users\FBW\PycharmProjects\latent_ode\run_models.py
+run_models.py --dataset activity --sde-rnn --niters 5 -n 1000 -l 20 --rec-dims 50 --rec-layers 2 --gen-layers 2 --units 32 --gru-units 50 --classif --linear-classif
+Experiment 61521
+Epoch 0001 [Test seq (cond on sampled tp)] | Loss 1.332933 | Likelihood -19567.917969 | KL fp 0.0000 | FP STD 0.0000|
+KL coef: 0.0
+Train loss (one batch): 1.3744983673095703
+Train CE loss (one batch): 1.3744983673095703
+Test MSE: 3.9143
+Classification accuracy (TEST): 0.5197
+Classification accuracy STD (TEST): 0.000000
+Classification accuracy VAR (TEST): 0.000000
+Poisson likelihood: 0.0
+CE loss: 1.3329333066940308
+Experiment 61521
+Epoch 0002 [Test seq (cond on sampled tp)] | Loss 0.839397 | Likelihood -19725.031250 | KL fp 0.0000 | FP STD 0.0000|
+KL coef: 0.0
+Train loss (one batch): 0.9030472636222839
+Train CE loss (one batch): 0.9030472636222839
+Test MSE: 3.9457
+Classification accuracy (TEST): 0.7169
+Classification accuracy STD (TEST): 0.000000
+Classification accuracy VAR (TEST): 0.000000
+Poisson likelihood: 0.0
+CE loss: 0.8393968343734741
+Experiment 61521
+Epoch 0003 [Test seq (cond on sampled tp)] | Loss 0.768293 | Likelihood -19680.697266 | KL fp 0.0000 | FP STD 0.0000|
+KL coef: 0.0
+Train loss (one batch): 0.6941704154014587
+Train CE loss (one batch): 0.6941704154014587
+Test MSE: 3.9369
+Classification accuracy (TEST): 0.7201
+Classification accuracy STD (TEST): 0.000000
+Classification accuracy VAR (TEST): 0.000000
+Poisson likelihood: 0.0
+CE loss: 0.7682928442955017
